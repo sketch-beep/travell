@@ -1,0 +1,142 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Segoe UI", sans-serif;
+}
+
+body {
+            background-color: #0e2a2a;
+}
+
+/* NAVBAR */
+.navbar {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            padding: 15px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(0,0,0,0.5);
+            z-index: 10;
+}
+
+.logo {
+            display: flex;
+            align-items: center;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+}
+
+.logo img{
+    height: 20px;
+    width: 100px;
+    left: 10px;
+}
+
+.logo i {
+            margin-right: 8px;
+}
+
+.nav-links a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 15px;
+}
+
+.nav-links a:hover {
+            text-decoration: underline;
+}
+
+.search-box {
+            display: flex;
+            align-items: center;
+}
+
+.search-box input {
+            padding: 6px 10px;
+            border-radius: 15px;
+            border: none;
+            outline: none;
+            width: 200px;
+}
+
+.search-box button {
+            margin-left: 6px;
+            padding: 6px 12px;
+            border: none;
+            border-radius: 15px;
+            background: #1cc7a6;
+            color: white;
+            cursor: pointer;
+}
+
+/* HERO SECTION */
+.hero {
+            height: 100vh;
+            background: linear-gradient(
+                rgba(0, 70, 70, 0.7),
+                rgba(0, 70, 70, 0.7)
+            ),
+            url("background.webp") no-repeat center/cover;
+            display: flex;
+            align-items: center;
+            padding-left: 80px;
+            position: relative;
+}
+
+.hero-content {
+            color: white;
+            max-width: 500px;
+}
+
+.hero-content h1 {
+            font-size: 52px;
+            line-height: 1.2;
+            margin-bottom: 20px;
+}
+
+.hero-content p {
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 25px;
+            opacity: 0.9;
+}
+
+.hero-content button {
+            padding: 10px 22px;
+            background: #1cc7a6;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-size: 14px;
+            cursor: pointer;
+}
+
+.hero-content button:hover {
+            background: #16b094;
+}
+
+/* SOCIAL ICONS */
+.social-icons {
+            position: absolute;
+            left: 25px;
+            top: 50%;
+            transform: translateY(-50%);
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+}
+
+.social-icons a {
+            color: white;
+            font-size: 18px;
+            text-decoration: none;
+}
+
+.social-icons a:hover {
+            color: #1cc7a6;
+}
