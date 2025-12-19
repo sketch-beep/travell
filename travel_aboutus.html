@@ -1,18 +1,219 @@
-<html>
-    <head>
-        <title>Explore Trail</title>
-    </head>
-    <body>
-        <nav>
-            <h1>Explore Trail</h1>
-            <ul>
-                <li><a href="./travel_recommendation.html" id="home">Home </a></li>
-                <li><a href="./travel_aboutus.html" id="about">About Us</a></li>
-                <li><a href="./travel_contact.html" id="contact">Contact Us </a></li>
-            </ul>
-        </nav>
-        <div>
-         <h1>CONTACT US</h1>
-         <h2>Get in touch....</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Us | TravelBloom</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Segoe UI", sans-serif;
+        }
+
+        body {
+            background-color: #0e2a2a;
+        }
+
+        /* NAVBAR */
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding: 15px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(0,0,0,0.6);
+            z-index: 10;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .logo img{
+          height: 60px;
+          width: 200px;
+        }
+
+        .logo i {
+            margin-right: 8px;
+        }
+
+        .nav-links a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 15px;
+        }
+
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+
+        /* HERO BACKGROUND */
+        .about-hero {
+            min-height: 100vh;
+            background: linear-gradient(
+                rgba(0, 70, 70, 0.75),
+                rgba(0, 70, 70, 0.75)
+            ),
+            url("background.webp") no-repeat center/cover;
+            padding: 120px 80px 60px;
+            color: white;
+            position: relative;
+        }
+
+        /* ABOUT CONTENT */
+        .about-title {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .about-text {
+            max-width: 900px;
+            font-size: 14px;
+            line-height: 1.7;
+            background: rgba(0,0,0,0.35);
+            padding: 20px;
+            border-radius: 6px;
+            margin-bottom: 50px;
+        }
+
+        /* TEAM SECTION */
+        .team-section {
+            margin-top: 40px;
+        }
+
+        .team-title {
+            font-size: 32px;
+            margin-bottom: 25px;
+        }
+
+        .team-cards {
+            display: flex;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .team-card {
+            background: rgba(0,0,0,0.45);
+            padding: 20px;
+            border-radius: 8px;
+            width: 250px;
+            text-align: center;
+        }
+
+        .team-card img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .team-card h3 {
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+
+        .team-card p {
+            font-size: 12px;
+            opacity: 0.85;
+            margin-bottom: 10px;
+        }
+
+        .role {
+            display: inline-block;
+            padding: 5px 12px;
+            background: #1cc7a6;
+            color: #003333;
+            font-size: 12px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            .about-hero {
+                padding: 120px 30px;
+            }
+
+            .team-cards {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <div class="logo">
+            <img src="Screenshot 2025-11-26 193648.png">
         </div>
-        <div>
+
+        <div class="nav-links">
+            <a href="travel_recommendation.html">Home</a>
+            <a href="travel_aboutus.html">About Us</a>
+            <a href="travel_contact.html">Contact Us</a>
+        </div>
+    </div>
+
+    <!-- ABOUT HERO -->
+    <section class="about-hero">
+
+        <!-- ABOUT CONTENT -->
+        <h1 class="about-title">ABOUT US</h1>
+
+        <div class="about-text">
+            Explore Trail is a modern travel platform that helps travelers discover destinations, 
+            plan trips, and explore new experiences with ease. 
+            It offers curated itineraries, travel tips, 
+            and destination insights designed to make trip planning simple and inspiring. 
+            With a focus on adventure, culture, and convenience, 
+            Explore Trail aims to guide travelers on their journey from dream to destination.
+            <br><br>
+            Our values include integrity, innovation, customer satisfaction, and teamwork.
+            We believe in putting our customers first and working together to achieve our goals.
+            <br><br>
+            Feel free to explore our website to learn more about what we offer.
+        </div>
+
+        <!-- TEAM SECTION -->
+        <div class="team-section">
+            <h2 class="team-title">Our Team</h2>
+
+            <div class="team-cards">
+                <div class="team-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="">
+                    <h3>Sophie Mehra</h3>
+                    <p>Sophie Mehra leads content curation — writing destination guides, 
+                        planning itineraries, and vetting travel tips to ensure they’re realistic, 
+                        reliable, and inspiring.</p>
+                    <span class="role">CEO</span>
+                </div>
+
+                <div class="team-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="">
+                    <h3>Rohan Kapoor</h3>
+                    <p>Rohan Kapoor handles logistics — overseeing partnerships with hotels, 
+                        transport providers, and local guides; managing bookings; 
+                        and ensuring smooth support for users from planning to travel.</p>
+                    <span class="role">Team Lead</span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+</body>
+</html>

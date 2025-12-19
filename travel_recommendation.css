@@ -31,8 +31,8 @@ body {
 }
 
 .logo img{
-    height: 20px;
-    width: 100px;
+    height: 60px;
+    width: 200px;
     left: 10px;
 }
 
@@ -118,25 +118,4 @@ body {
 
 .hero-content button:hover {
             background: #16b094;
-}
-
-/* SOCIAL ICONS */
-.social-icons {
-            position: absolute;
-            left: 25px;
-            top: 50%;
-            transform: translateY(-50%);
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-}
-
-.social-icons a {
-            color: white;
-            font-size: 18px;
-            text-decoration: none;
-}
-
-.social-icons a:hover {
-            color: #1cc7a6;
 }
