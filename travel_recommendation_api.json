@@ -52,13 +52,13 @@
     "temples": [
       {
         "id": 1,
-        "name": "Angkor Wat, Cambodia",
+        "name": "Angkor Wat",
         "imageUrl": "angkorwat.jpg",
         "description": "A UNESCO World Heritage site and the largest religious monument in the world."
       },
       {
         "id": 2,
-        "name": "Taj Mahal, India",
+        "name": "Taj Mahal",
         "imageUrl": "tajmahal.jpg",
         "description": "An iconic symbol of love and a masterpiece of Mughal architecture."
       }
@@ -66,13 +66,13 @@
     "beaches": [
       {
         "id": 1,
-        "name": "Bora Bora, French Polynesia",
+        "name": "Bora Bora",
         "imageUrl": "borabora.jpg",
         "description": "An island known for its stunning turquoise waters and luxurious overwater bungalows."
       },
       {
         "id": 2,
-        "name": "Copacabana Beach, Brazil",
+        "name": "Copacabana Beach",
         "imageUrl": "copacabana.jpg",
         "description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views."
       }
